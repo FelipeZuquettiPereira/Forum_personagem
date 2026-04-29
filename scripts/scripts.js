@@ -40,7 +40,7 @@ document.getElementById("form-login").onsubmit = (e) => {
         if (salva === senha) {
             mensagem.innerHTML = "<div class='sucesso'><p>Login com sucesso! Você está sendo redirecionado . . .</p></div>";
             setTimeout(() => {
-                window.location.href = "../index.html"
+                window.location.href = "../html/pagina_principal.html"
             }, 4000);
             
         } else {
