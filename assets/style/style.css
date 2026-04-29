@@ -1,0 +1,25 @@
+img{
+    width: 600px;
+    height: 800px;
+}
+
+.barra{
+    width: 100%;
+    background-color: lab(39.52% -45.6 42.47);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    position: sticky;
+    top: 0;
+}
+
+button{
+    width: 300px;
+    height: 100px;
+}
+
+body{
+    padding-bottom: 40px;
+}
