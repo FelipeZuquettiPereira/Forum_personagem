@@ -23,3 +23,14 @@ button{
 body{
     padding-bottom: 40px;
 }
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.centro{
+    width: 1000px;
+    padding: 40px;
+    text-align: justify;
+}
