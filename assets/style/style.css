@@ -65,3 +65,55 @@ h5{
     width: 30px;
     height: 30px;
 }
+
+.enviar_botao{
+    justify-content: end;
+    display: flex;
+    padding: 5px;
+}
+
+.botao{
+    color: white;
+    background-color: gray;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+}
+
+.botao:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+.sucesso {
+    color: green;
+    font-size: larger;
+    padding: 10px;
+}
+
+.erro {
+    color: red;
+    padding: 10px;
+    font-size: larger;
+}
+
+.seta_voltar{
+    height: 50px; 
+    width: 50px; 
+    background-color: lab(39.52% -45.6 42.47); 
+    margin: 40px; 
+    border-radius: 30px; 
+    position: fixed; 
+    left: 300px; 
+    border: none;
+}    
+
+.seta_voltar:hover{
+    background-color: lab(58.79% -55.89 48.83);
+}
+            
+
+.seta{
+    height: 30px; 
+    width: 33px;
+}

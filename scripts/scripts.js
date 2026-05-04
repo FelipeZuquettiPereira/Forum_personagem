@@ -41,7 +41,7 @@ document.getElementById("form-login").onsubmit = (e) => {
             mensagem.innerHTML = "<div class='sucesso'><p>Login com sucesso! Você está sendo redirecionado . . .</p></div>";
             setTimeout(() => {
                 window.location.href = "../html/pagina_principal.html"
-            }, 4000);
+            }, 2000);
             
         } else {
             mensagem.innerHTML = "<div class='erro'><p>Dados Incorretos!</p></div>";
